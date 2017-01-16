@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'LeagueGothic';
+        src: url('../fonts/LeagueGothicRegular.eot');
+        src: url('../fonts/LeagueGothicRegular.woff') format('woff'),
+             url('../fonts/LeagueGothicRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+.main {
+    background: url(../img/iphone.png) 1335px 261px no-repeat,
+                url(../img/overlay.png) no-repeat 0 278px,
+                url(../img/navigation.png) no-repeat 1430px 770px, 
+                url(../img/bg_top.png) top no-repeat,
+                url(../img/bg_bottom.png) bottom no-repeat;
+    background-size*: , , , ,2400px 120px;
+    width: 2400px;
+    height: 2310px;  
+}
+
+.bg_purple {
+    position: absolute;
+    top: 846px;
+    width: 2400px;
+    height: 340px;
+    border: 1px solid #33253a;
+    margin-top*: 845px;
+    background: linear-gradient(to bottom, #745082, #33263a);
+}
+
+.main__center {
+    width: 962px;
+    margin: 0 auto; 
+    border-left*: 1px solid #000;  
+    border-right*: 1px solid #000; 
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 51px;
+}
+
+.top_menu {     
+    float: right;
+}
+
+.top_menu__item {
+    display: inline-block;
+    margin: 75px 1px 0 44px;
+
+}
+
+.top_menu__item a {
+    text-decoration: none;
+    padding: 0 2px;
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.1px;
+    word-spacing: -0.2px;
+    color: #fff;
+    text-shadow: #696969 1px 1px 3px;
+    font-weight*: 100;
+}
+
+.top_menu__item a:hover {    
+    border-bottom: 2px solid #edbfff;
+}
+
+li.about {
+    margin-left: 43px;
+}
+
+.text {
+    margin-top: 250px;
+    width: 500px;
+}
+
+.text {
+    display: block;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.text__p1 {
+    color: #fff; 
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.text__p2 {
+    color: #edbfff; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text__p3 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    word-spacing: 2px;
+
+}
+
