@@ -11,25 +11,15 @@ html {
     height: 100%;
 }
 
-.main {
+.block_1 {
     background: url(../img/iphone.png) 1335px 261px no-repeat,
                 url(../img/overlay.png) no-repeat 0 278px,
                 url(../img/navigation.png) no-repeat 1430px 770px, 
-                url(../img/bg_top.png) top no-repeat,
-                url(../img/bg_bottom.png) bottom no-repeat;
+                url(../img/bg_top.png) top no-repeat;
+                /*url(../img/bg_bottom.png) bottom no-repeat;*/
     background-size*: , , , ,2400px 120px;
     width: 2400px;
-    height: 2310px;  
-}
-
-.bg_purple {
-    position: absolute;
-    top: 846px;
-    width: 2400px;
-    height: 340px;
-    border: 1px solid #33253a;
-    margin-top*: 845px;
-    background: linear-gradient(to bottom, #745082, #33263a);
+    height: 846px;  
 }
 
 .main__center {
@@ -75,32 +65,102 @@ li.about {
 }
 
 .text {
-    margin-top: 250px;
+    margin-top: 245px;
     width: 500px;
 }
 
 .text {
     display: block;
-    font-family: 'Open Sans', Arial, sans-serif;
+    
 }
 
-.text__p1 {
+.text__p1 {    
+    font-family: 'LeagueGothic', Arial, sans-serif;
     color: #fff; 
-    font-size: 55px;
-    font-weight: bold;
+    font-size: 60px;
+    font-weight: normal;
+    transform:scale(0.95, 1.005);
+    transform-origin: left center;
 }
 
 .text__p2 {
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    margin: 10px 0;
     color: #edbfff; 
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .text__p3 {
+    font-family: 'Open Sans', Arial, sans-serif;
     color: #fff;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.5;
     word-spacing: 2px;
+}
+
+.block_2 {
+    position*: absolute;
+    top*: 846px;
+    width: 2400px;
+    height: 340px;
+    border: 1px solid #33253a;    
+    background: linear-gradient(to bottom, #745082, #33263a);
+}
+
+.transform {
+    
+}
+
+
+/*.bg_purple {
+    position: absolute;
+    top: 846px;
+    width: 2400px;
+    height: 340px;
+    border: 1px solid #33253a;    
+    background: linear-gradient(to bottom, #745082, #33263a);
+}
+
+
+
+
+
+*/
+
+/*.about_company {
+    position: absolute;
+    top: 846px;
+    width: 2400px;
+    height: 340px;
+    border*: 1px solid #33253a;    
+    background: linear-gradient(to bottom, #745082, #33263a);
+}*/
+
+/*.sprite li {
+    display: inline-block;
+    margin-top: 300px;
+    background: url(../img/sprite.png) no-repeat;
+    width: 28px;
+    height: 32px;
+}
+*/
+
+
+/*.sprite {
+    position: absolute;
+    top: 930px;
+    overflow*: hidden;
+    float: left;
 
 }
+
+.sprite > p {
+    display: inline-block;
+    margin-right: 305px;
+    width: 28px;
+    height: 32px;
+    background: url(../img/sprite.png) 0 0 no-repeat;
+}*/
+
 
