@@ -266,16 +266,19 @@ html {
 }
 
 .text_content {
-    margin*: 11px 0 0 2px;
+    margin-top: 9px;
+    margin-left: 1px;
 }
 
 .text_content img {
-    margin: 3px 13px 0 0;
+    margin: 6px 13px 0 0;
 }
 
 .text_p {
     display: inline-block;
-    margin-top*: 1px;
+    vertical-align: top;
+    margin-top: 6px;
+    line-height: 1.5;
 }
 
 .text_extrabold {
@@ -293,12 +296,16 @@ html {
 
 .common__right a {
     float: right; 
-    margin*: 19px 4px 0 0;
     text-decoration: none;
     font-family: 'LeagueGothic', Arial, sans-serif;
     font-size: 18px;
     color: #454545;
 }
+
+.common__right > a {
+    margin-top: 17px;
+}
+
 
 .block_4 {
     width: 2400px;
