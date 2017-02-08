@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'LeagueGothic';
+            src: url('../fonts/LeagueGothic/LeagueGothicRegular.eot');
+            src: url('../fonts/LeagueGothic/LeagueGothicRegular.woff') format('woff'),
+                 url('../fonts/LeagueGothic/LeagueGothicRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansLight';
+            src: url('../fonts/Open Sans Light/Open Sans Light.eot');
+            src: url('../fonts/Open Sans Light/Open Sans Light.woff') format('woff'),
+                 url('../fonts/Open Sans Light/Open Sans Light.woff2') format('woff2'),
+                 url('../fonts/Open Sans Light/Open Sans Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansExtraBold';        
+            src: url('../fonts/Open Sans ExtraBold/Open Sans ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    height: 100%;
+}
+
+.block_1 {
+    background: url(../img/bg_top.jpg) top center no-repeat;
+    height: 516px; 
+    overflow: auto;
+}
+
+.block__center {
+    width: 320px;
+    margin: 0 auto;    
+    border-left*: 1px solid #000;  
+    border-right*: 1px solid #000; 
+}
+
+.logo {
+    display: block;
+    text-align: center;
+    margin-top: 51px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .menu_z-index {        
+        height: 45px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .top_menu {
+        width: 244px;
+        margin: 0 auto;
+        margin-top: 21px;
+        text-align: center;               
+    }
+
+    .top_menu:hover {
+        border: 2px solid #101a20;
+        border-radius: 8px;
+        background: rgba(54, 41, 62, .9); 
+    }
+
+    .top_menu__item {
+        display: none;
+        height: 31px;
+        padding-top: 9px;
+        z-index: 10;
+        
+    }
+
+    .top_menu:hover .top_menu__item {
+        display: block;
+        border-top: 1px solid #523e5a;
+        border-bottom: 1px solid #36283e;
+    }
+
+    .top_menu .top_menu__item:hover {
+        background: rgba(0, 0, 0, .3);
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .top_menu__link {  
+        text-decoration: none;
+        font-family: 'LeagueGothic', Arial, sans-serif;
+        font-size: 24px;
+        color: #fff;
+        letter-spacing: -0.2px;
+
+    }
+
+    .link_underline {
+        padding: 0 5px 2px 5px;
+        border-bottom: 2px solid #edbfff;
+        
+    }
+
+    .item_home {
+        display: block;
+        padding-top: 12px;
+    }
+}   
+
+.overlay {    
+    margin-top: 66px;
+}
+
+.arrow_1 {
+    margin-top: 131px;
+}
+
+.arrow_2 {
+    margin-left: 271px;
+}
+
+.text {
+    margin-top: -49px;        
+}
+
+.text__p1 {
+    text-align: center;
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 36px;
+    color: #fefefe;
+    letter-spacing: -0.1px;
+    transform:scale(0.97, 1.005);
+    transform-origin: left center;
+}
+
+.text__p2 {
+    margin: 2px 0 0 65px;
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 18px;
+    color: #edbfff;
+    word-spacing: -1px;    
+}
+
+.text__p3 {
+    display: none;
+}
+
+.iphone {
+    display: none;
+}
+
+.navigation_1 {
+    margin: 77px 0 0 123px;
+}
+
+.block_2 {
+    height: 558px;
+    border: 1px solid #33253a;    
+    background: linear-gradient(to bottom, #745082, #33263a);
+    padding-top: 40px;
+}
+
+
+.about_us {    
+    overflow: hidden;    
+}
+
+.wrench {
+    display: inline-block;
+    margin: 30px 20px 0 30px;    
+    height: 32px;
+    width: 28px;
+    vertical-align: top;
+    background: url(../img/sprite.png) no-repeat;
+} 
+
+.about_us__text {
+    display: inline-block;
+    width: 215px;
+    margin-top: 30px;
+    
+}
+
+
+.about_us__text h2 { 
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 24px;
+    color: #fff;
+    word-spacing: -2px;
+
+}
+
+.text_hide_1 {
+    display: none;
+}
+
+.about_us__text p {
+    margin-top: 3px;
+    font-family: 'OpenSansLight', Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.about_us__text a {
+    float: right;    
+    margin: 16px 2px 0 0;
+    text-decoration: none;
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.about_us__text a:hover {
+    text-shadow: #fff 0 0 1px;
+}
+
+.about_us_perfect_1 {
+    margin-top: -6px;
+}
+
+.about_us_perfect_2 {
+    margin-top: 10px;
+}
+
+
+.block_3 {
+    height: 785px;
+    background-color: #f9f9f9;
+    overflow: auto;
+}
+
+.common_top_or_left {
+    margin-top: 74px;
+}
+
+.common_top_or_left__img {
+    display: inline-block;
+    position: relative;
+    top: 13px;
+    left: 20px;
+    vertical-align: top;
+}
+
+.common_top_or_left__text {
+    display: inline-block;
+    padding: 20px 27px;
+    width: 195px;
+    height: 227px;
+    background-color: #fff;    
+    
+}
+
+.text_header {
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 24px;
+    color: #454545;
+}
+
+.text__color {
+    color: #edbfff;
+    word-spacing: -2px;
+}
+
+.text_info {
+    width: 180px;
+    margin: 4px 0 0 2px;
+    font-family: 'OpenSansLight', Arial, sans-serif;
+    font-size: 16px;  
+    line-height: 1.5; 
+}
+
+
+.navigation_2 {
+    margin: 23px 0 0 140px;    
+}
+
+.text_hide_4 {
+    display: none;
+}
+
+.common_bottom_or_right {
+    margin-top: 44px;
+}
+
+.larger  {
+    margin-left: 19px;
+    font-size: 30px;
+    word-spacing: -2px;
+}
+
+.text_content img {
+    margin: 14px 0 0 20px;
+}
+
+.text_p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 18px 0 0 13px;
+    width: 220px;
+}
+
+.text_extrabold {
+    font-family: 'OpenSansExtraBold', Arial, sans-serif;
+    font-size: 16px;  
+}
+
+.text_info_p {
+    margin-top: 9px;
+    font-family: 'OpenSansLight', Arial, sans-serif;
+    font-size: 16px;  
+    word-spacing: -0.4px;
+}
+
+.common_bottom_or_right .read_more {
+    display: none;
+}
+
+.common_bottom_or_right a {
+    float: right; 
+    margin: 15px 24px 0 0;
+    text-decoration: none;
+    font-family: 'LeagueGothic', Arial, sans-serif;
+    font-size: 18px;
+    color: #454545;
+    letter-spacing: -0.05px;    
+}
+
+.text_content__perfect_3 {
+    margin-top: 5px;
+}
+
+.block_4 {
+    height: 422px;
+    background-color: #f9f9f9; 
+    border: 1px solid #e6e6e6;
+}
+
+.logo_1 {
+    display: inline-block;
+    margin: 52px 0 0 62px;
+    height: 65px;
+    width: 70px;
+    background: url(../img/logos.png);
+}
+
+.logo_2 {
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    height: 65px;
+    width: 80px;
+    background: url(../img/logos.png);
+    background-position: -135px 0;
+}
+
+.logo_3 {
+    display: inline-block;
+    margin: 56px 0 0 65px;
+    height: 65px;
+    width: 70px;
+    background: url(../img/logos.png);
+    background-position: -265px 0;
+}
+
+.logo_4 {
+    display: inline-block;
+    margin: 57px 0 0 51px;
+    height: 65px;
+    width: 70px;
+    background: url(../img/logos.png);
+    background-position: -400px 0;
+}
+
+.logo_5 {
+    display: inline-block;
+    margin: 38px 0 0 40px;
+    height: 65px;
+    width: 105px;
+    background: url(../img/logos.png);
+    background-position: -526px 0;
+}
+
+.logo_6 {
+    display: inline-block;
+    margin: 38px 0 0 50px;
+    height: 65px;
+    width: 80px;
+    background: url(../img/logos.png);
+    background-position: -695px 0;
+}
+
+.block_5 {
+    display: none;
+}
+
+.block_6 {
+    overflow: auto;
+    height: 200px;
+    background: url(../img/bgg_bottom.jpg) bottom center no-repeat;
+    box-shadow: 0 0 1px 1px #454545;
+    box-sizing: border-box;
+}
+
+.bottom_menu {
+    display: none;
+}
+
+.designed_by {
+    margin: 41px 0 0 91px;
+    font-family: 'OpenSansLight', Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-shadow: #5a5a5a 1px 2px 1px;   
+}
+
+.designed_by_bold {
+    font-family: 'OpenSansExtraBold', Arial, sans-serif;
+    font-size: 12px;  
+    color: #fff;
+}
+
+

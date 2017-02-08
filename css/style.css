@@ -24,6 +24,7 @@
     font-style: normal;
 }
 
+
 html {
     height: 100%;
 }
@@ -33,7 +34,6 @@ html {
                 url(../img/overlay.png) 0 278px no-repeat ,
                 url(../img/navigation.png) 1430px 770px no-repeat, 
                 url(../img/bg_top.jpg) top no-repeat;    
-    width: 2400px;
     height: 846px;  
 }
 
@@ -44,7 +44,7 @@ html {
     border-right*: 1px solid #000; 
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
     .main__center {
         width: 768px;
     }
@@ -53,7 +53,7 @@ html {
         float: left;
         margin: 75px 1px 0 0;   
     }
-}
+}*/
 
 .logo {
     display: inline-block;
@@ -91,12 +91,12 @@ html {
     width: 508px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .text {
         width: 280px;
         margin-top: 200px;
     }
-}
+}*/
 
 .text__p1 {    
     font-family: 'LeagueGothic', Arial, sans-serif;
@@ -123,8 +123,7 @@ html {
     word-spacing: -1px;     
 }
 
-.block_2 {
-    width: 2400px;
+.block_2 {    
     height: 340px;
     border: 1px solid #33253a;    
     background: linear-gradient(to bottom, #745082, #33263a);
@@ -153,11 +152,11 @@ html {
     vertical-align: top;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .about_us__text {
         width: 165px;
     }
-}
+}*/
 
 .about_us__text h2 {
     display: inline-block;
@@ -415,3 +414,4 @@ footer {
     font-size: 12px;  
     color: #fff;
 }
+

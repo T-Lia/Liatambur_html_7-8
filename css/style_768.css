@@ -1,0 +1,273 @@
+@media only screen and (min-width: 768px) {
+
+    .block_1 {
+        height: 798px;
+    }
+
+    .block__center {
+        width: 768px;
+    }
+
+    .logo {
+        display: block;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .top_menu {     
+        display: block;
+    }
+
+    .top_menu__item {
+        display: inline-block;
+        margin: 32px 28px 0 17px;
+    }
+
+    .top_menu__item .top_menu__link {
+        text-decoration: none;
+        padding: 0 2px;
+        font-family: 'LeagueGothic', Arial, sans-serif;
+        font-size: 23px;
+        letter-spacing: 0.1px;
+        word-spacing: -0.5px;
+        color: #fff;
+        text-shadow: #696969 1px 1px 3px;    
+    }
+
+    .top_menu__item .top_menu__link:hover {    
+        border-bottom: 2px solid #edbfff;
+    }
+
+    .overlay {        
+        height: 400px; 
+        margin-top: 77px;       
+        background-color: rgba(0, 0, 0, .2);
+    }    
+
+    .arrow_1 {
+        margin-top: 183px;
+    }
+
+    .arrow_2 {
+        margin-left: 720px;
+    }
+
+    .iphone {
+        width: 35.7%;
+        margin: -313px 0 0 447px;
+    }
+
+    .text_hide_3 {
+        display: none;
+    }
+
+    .text {
+        margin: -121px 0 0 43px;
+        width: 275px;
+    }
+
+    .text__p1 {
+        margin: 0;
+        text-align: left;
+        font-size: 48px;
+        word-spacing: -2px;
+        letter-spacing: 0;
+    }
+
+    .text__p2 {
+        margin: 7px 0 0 -1px;
+        font-size: 24px;        
+    }
+
+    .text__p3 {
+        display: block;
+        margin: 8px 0 0 -1px;
+        font-family: 'OpenSansLight', Arial, sans-serif;
+        color: #fff;
+        font-size: 16px;
+        line-height: 1.66;            
+    }
+
+    .navigation_1 {
+        margin: 81px 0 0 542px;
+    }
+
+    .block_2 {
+        height: 301px;
+    }
+
+    .about_us {
+        display: inline-block;
+        margin-top: 7px;    
+    }
+
+    .about_us__text {
+        display: inline-block;
+        width: 160px;    
+        vertical-align: top;
+    }
+
+    .about_us_perfect_1 {
+        margin-left: 7px;
+    }
+
+    .about_us_perfect_2 {
+        margin-left: 17px;
+    }
+
+    .about_us__text h2 {
+        margin-left: -1px;
+    }
+
+    .about_us__text a {
+        margin: 8px 14px 0 0;
+    }
+
+    .wrench {
+        margin: 31px 21px 0 28px;
+    }
+
+    .block_3 {
+        height: 486px;
+        border: 1px solid #e6e6e6;    
+        background-color: #f9f9f9;
+    }
+
+    .common_top_or_left {
+        display: inline-block;
+        margin: 104px 0 0 -2px;
+        width: 356px;
+    }
+
+    .common_top_or_left__text {
+        background-color*: grey;
+        display: inline-block;
+        width: 249px;
+        height: 228px;
+    }
+
+    .text_header {
+        display: block;
+        font-size: 24px;
+        letter-spacing: -0.1px;
+    }
+
+    .text__color {
+        margin-top: 1px;
+    }
+
+    .text_info {
+        width: 250px;
+        margin-top: 8px;
+    }
+
+    .navigation_2 {
+        margin: 22px 0 0 158px;
+    }
+
+    .text_hide_4 {
+        display: none;
+    }
+
+    .common_bottom_or_right {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 129px;
+    }
+
+    .text_content {
+        margin-left: 36px;
+    }
+
+    .text_p {
+        width: 260px;
+    }
+
+    .larger {
+        margin-left: 55px; 
+        font-size: 30px;
+        word-spacing: -1.1px;
+    }
+
+    .common_bottom_or_right .read_more {
+        display: none;
+    }
+
+    .common_bottom_or_right a {
+        margin: 18px -1px 0 0;
+        word-spacing: -0.3px;
+    }
+
+    .block_4 {
+        height: 119px;
+    }
+
+    .logo_1 {
+        margin: 25px 0 0 21px;
+    }
+
+    .logo_2 {
+        margin-top: 25px;
+    }
+
+    .logo_3 {
+        margin: 25px 0 0 37px;
+    }
+
+    .logo_4 {
+        margin: 25px 0 0 51px;
+    }
+
+    .logo_5 {
+        margin: 25px 0 0 42px;
+    }
+
+    .logo_6 {
+        margin: 25px 0 0 50px;
+    }
+
+    .block_5 {
+        height: 395px;
+    }
+
+    .pingbuller {
+        display: none;
+    }
+
+    .comments {
+        display: none;
+    }
+
+    .news {
+        display: inline-block;
+        margin: 100px 0 0 19px;
+    }
+
+    .news_perfect_1 {
+        margin: 56px 0 0 44px;
+    }
+
+    .news_perfect_2 {
+        margin: 59px 0 0 41px;
+    }
+
+    .text_info_edited {
+        width: 218px;
+    }
+
+    .bottom_menu__item {
+        margin: 47px 20px 0 19px;
+    }
+
+    .bottom_menu__item a {
+        word-spacing: -1px;
+    }
+
+    .designed_by {
+        margin: 36px 0 0 608px;
+    }
+}

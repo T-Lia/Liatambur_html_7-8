@@ -1,0 +1,355 @@
+@media only screen and (min-width: 960px) {
+
+    .block_1 {
+        width*: 2400px;
+        height: 846px;
+    }
+
+    .block__center {
+        width: 960px;
+    }
+
+    .logo {
+        display: inline-block;
+        margin: 51px 0 0 0;
+    }
+
+    .top_menu {
+        display: inline-block;     
+        float: right;
+        margin-top: -32px;
+
+    }
+
+    .top_menu__item {
+        display: inline-block;
+        margin: -6px 1px 0 44px;
+    }
+
+    .top_menu__item ..top_menu__link {
+        word-spacing: 0.2px;
+        letter-spacing: 0;
+    }
+
+    .overlay {
+        margin-top: -80px;
+    }
+
+    .arrow_1, .arrow_2 {
+        display: none;
+    }
+
+    /*.arrow_1 {
+        margin: 349px 0 0 -318px;
+    }
+
+    .arrow_2 {
+        margin-left: 1100px;
+    }*/
+
+    .iphone {
+        width: 28.5%;
+        margin: -334px 0 0 615px;
+    }
+
+    .text_hide_3 {
+        display: inline;
+    }
+
+    .text {
+        margin: 245px 0 0 0;
+        padding-top: 80px;
+        width: 517px;
+    }
+
+    .text__p1 {
+        font-size: 60px;
+        letter-spacing: -0.1px;
+    }
+
+    .text__p2 {
+        font-size: 32px;
+        margin-top: -1px;
+        word-spacing: -2.8px;
+        letter-spacing: 0.2px;
+    }
+
+    .text__p3 {
+        margin: 4px 0 0 -1px;
+        font-size: 18px;
+        line-height: 1.35;
+        word-spacing*: 0px;
+        letter-spacing: -0.1px;
+    }
+
+    .navigation_1 {
+        margin: 131px 0 0 710px;
+    }
+
+    .block_2 {
+        width*: 962px;
+    }
+
+    .about_us {
+        margin-left: -16px;
+    }
+
+    .about_us_perfect_1 {
+        margin-left: 25px;
+    }
+
+    .about_us_perfect_2 {
+        margin-left: 13px;
+    }
+
+    .about_us__text {
+        width: 229px;
+    }
+
+    .about_us__text h2 {
+        margin-left: 2px;
+        font-size: 30px;
+    }
+
+    .about_us__text p {
+        margin-top: 7px;
+    }
+
+    .wrench {
+        margin: 35px 20px 0 25px;
+    }
+
+    .quote {
+        display: inline-block;
+        height: 32px;
+        width: 28px;
+        margin: 35px 21px 0 28px;
+        background: url(../img/sprite.png) no-repeat;
+        background-position: -33px 0;
+    }
+
+    .music {
+        display: inline-block;
+        height: 32px;
+        width: 28px;
+        margin: 35px 13px 0 39px;
+        background: url(../img/sprite.png) no-repeat; 
+        background-position: -66px 0;
+    }
+
+    .about_us__text a {
+        margin: 20px 12px 0 0;
+    }
+
+    .about_us__text .perfect_1 {
+        margin: 20px 8px 0 0;
+    }
+
+    .about_us__text .perfect_2 {
+        margin: 20px 1px 0 0;
+    }
+
+    .block_3 {
+        height: 484px;
+        font-size*: 0;
+    }
+
+    .common_top_or_left {
+        margin: 104px 0 0 -22px;
+        width: 471px;
+    }
+
+    .text_header {
+        display: inline-block;
+        margin-top: 4px;
+        font-size: 30px;
+        letter-spacing*: -0.3px;
+    }
+
+    .common_top_or_left__text {        
+        background: url(../img/quote.png) 0 -5px no-repeat;
+        width: 364px;
+        height: 228px;
+    }
+
+    .text_info {
+        width: 350px;
+    }
+
+    .navigation_2 {
+        margin: 21px 0 0 215px;
+    }
+
+    .text_hide_4 {
+        display: inline;
+    }
+
+    .common_bottom_or_right {
+        margin-top: 124px;
+    }
+
+    .text_content img {
+        margin: 13px 0 0 20px;
+    }
+
+    .text_content__perfect_2 {
+        margin-top: 2px;
+    }
+
+    .text_content__perfect_3 {
+        margin-top: -2px;
+    }
+
+    .text_p {
+        width: 369px;
+    }
+
+    .text_info_p {
+        
+        word-spacing: -0.6px;
+    }
+
+    .common_bottom_or_right .blog_posts {
+        display: none;
+    }
+
+    .common_bottom_or_right .read_more {
+        display: inline-block;
+    }
+
+    .common_bottom_or_right a {
+        margin: 21px 7px 0 0;
+        word-spacing: -0.3px;
+    }
+
+    .logo_1 {
+        margin: 25px 0 0 92px;
+    }
+
+    .logo_2 {
+        margin: 25px 0 0 60px;
+    }
+
+    .logo_3 {
+        margin: 25px 0 0 47px;
+    }
+
+    .logo_4 {
+        margin: 25px 0 0 61px;
+    }
+
+    .logo_5 {
+        margin: 25px 0 0 52px;
+    }
+
+    .logo_6 {
+        margin: 25px 0 0 60px;
+    }
+
+    .block_5 {
+
+    }
+
+    .news_perfect_1 {
+        display: none;
+    }
+
+    .news_perfect_2 {
+        display: none;
+    }
+
+    .pingbuller {
+        display: inline-block;
+        vertical-align: top;
+        margin: 95px 0 0 -5px;
+        width*: 280px;
+    }
+
+    .pingbuller_header {
+        margin-left: 4px;
+        font-family: 'LeagueGothic', Arial, sans-serif;
+        font-size: 48px;
+        color: #454545;
+        letter-spacing: -1px;
+    }
+
+    .last_letters {
+        color: #b9b9b9;
+    }
+
+    .pingbuller_p {
+        margin: 13px 0 0 3px;
+        font-family: Georgia, Arial, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        color: #c5c5c5;
+        word-spacing: -1px;
+    }
+
+    .info_style_1 {
+        width: 280px;
+        margin-top: 10px;
+    }
+
+    /*.text_info {
+        width: 280px;
+        margin: 11px 0 0 1px;
+    }*/
+
+    .comments {
+        display: inline-block;
+        margin: 98px 0 0 55px;
+        vertical-align: top;
+        
+    }
+
+    .comments__header {
+        margin*: 98px 0 0 55px;
+        font-family: 'LeagueGothic', Arial, sans-serif;
+        font-size: 30px;
+        color: #454545;
+        word-spacing: -3px;
+    }
+
+    .info_style_2 {
+        width: 280px;
+        margin: 6px 0 0 0;
+    }
+
+    .text_hide_2 {
+        display: inline;
+    }
+
+    .news {
+        margin: 97px 0 0 56px;
+        vertical-align: top;
+    }
+
+    .news__header {
+        font-size: 30px;
+    }
+
+    .text_info_edited {
+        width: 280px;
+        margin-top: 7px;
+    }
+
+
+    .block_6 {
+        height: 115px;
+    }
+
+    .bottom_menu__item {
+        margin: 49px 37px 0 1px;
+    }
+
+    .bottom_menu__item a {
+        word-spacing: 0;
+    }
+
+    .designed_by {
+        float: right;
+        margin: -14px -1px 0 0;
+    }
+
+}
